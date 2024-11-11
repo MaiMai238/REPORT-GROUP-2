@@ -50,15 +50,15 @@ The dataset used in this project is “Telco Customer Churn” from Kaggle, whic
 
 ### Dataset Overview
 
-The dataset includes customer demographics, account details, service usage, and churn information, with features such as:
+- The dataset includes customer demographics, account details, service usage, and churn information, with features such as:
 
-Demographics: Gender, Senior Citizen status, Partner, Dependents.
+- Demographics: Gender, Senior Citizen status, Partner, Dependents.
 
-Account information: Contract type, Tenure, Monthly Charges, Payment Method.
+- Account information: Contract type, Tenure, Monthly Charges, Payment Method.
 
-Services: Internet Service, Phone Service, Tech Support, etc.
+- Services: Internet Service, Phone Service, Tech Support, etc.
 
-Target Variable: Churn indicating customer churn status.
+- Target Variable: Churn indicating customer churn status.
 
 ### 1. Customer Churn Distribution
 
@@ -68,7 +68,7 @@ X-axis: Customer churn status with two groups - "No Churn" and "Churn."
 
 Y-axis: Number of customers in each group.
 
-Analysis
+* Analysis
 
 Non-Churned Customers: Around 5,000 customers did not churn, which is significantly higher, showing that most customers retain the service.
 
@@ -76,7 +76,7 @@ Churned Customers: Approximately 1,800 customers churned, representing about 26.
 
 Comparison: With a churn rate of 26.5%, addressing this issue is essential for sustainable growth. A high churn rate could signal service dissatisfaction, high costs, or competitive alternatives.
 
-Recommendations
+* Recommendations
 
 In-Depth Churn Analysis: Investigate factors like monthly charges, tenure, and other features influencing churn.
 
@@ -92,15 +92,15 @@ Accuracy: 78%
 
 AUC-ROC: 0.82, indicating the model’s strong ability to differentiate between churned and non-churned customers.
 
-Confusion Matrix:
+* Confusion Matrix:
 
 ![Screenshot 2024-11-11 235119](https://github.com/user-attachments/assets/c7fb64c4-43b1-4d46-91e3-7660232c07fd)
 
-Insights
+* Insights
 
 The logistic regression model’s AUC-ROC score of 0.82 reveals that it effectively captures churn patterns. A churn rate of 26.5% is substantial and calls for strategies to address potential causes. The model highlights several factors impacting churn, including high monthly costs, contract type, and tenure.
 
-Recommendations
+* Recommendations
 
 Detailed Churn Analysis: Further analyze factors like monthly charges, tenure, and service types to understand what drives customers to churn.
 
@@ -114,7 +114,7 @@ X-axis: Churn status with two groups - "No Churn" and "Churn."
 
 Y-axis: Monthly charges ranging from 20 to over 120 units.
 
-Analysis
+* Analysis
 
 No Churn Group: Average monthly cost is around 65 units, with most customers spending between 35 and 90 units.
 
@@ -122,7 +122,7 @@ Churn Group: Average monthly cost is higher at around 75 units, with most churne
 
 Comparison: Churned customers generally incur higher monthly costs, suggesting a possible link between high costs and churn likelihood.
 
-Recommendations
+* Recommendations
 
 Monitor Monthly Costs: High monthly costs (around 75 or more) are associated with increased churn. Adjusting cost structures or offering flexible plans might reduce churn.
 
@@ -134,7 +134,7 @@ Optimal K Value: After testing values from K=1 to K=20, K=16 produced the best a
 
 Accuracy: 75%
 
-Confusion Matrix:
+* Confusion Matrix:
 
 ![Screenshot 2024-11-11 235312](https://github.com/user-attachments/assets/dd45bf19-ccba-4b63-9cf0-23091215167a)
 
@@ -144,11 +144,11 @@ Recall: 0.68
 
 F1-score: 0.70
 
-Insights
+* Insights
 
 The analysis indicates that higher monthly charges are associated with increased churn likelihood, as confirmed by logistic regression coefficients that show a positive relationship between high charges and churn probability. KNN performed moderately well but was less effective in identifying churned customers accurately, as reflected in the lower recall score.
 
-Recommendations
+* Recommendations
 
 Monitor Monthly Costs: Consider adjusting monthly charges or offering flexible pricing plans, especially for customers with high bills, to reduce churn.
 
@@ -162,7 +162,7 @@ Y-axis: Monthly charges.
 
 Color: Orange for churned customers, blue for non-churned customers.
 
-Chart Analysis
+* Chart Analysis
 
 Monthly Charges Distribution: Monthly charges range widely from 20 to over 120 units, with a dense concentration between 70-90 units.
 
@@ -170,7 +170,7 @@ Tenure Distribution: Customers with short tenure (<20 months) show a high churn 
 
 Churn by Cost: Customers with high monthly costs (>80 units) are more likely to churn, especially among short-tenure customers.
 
-Machine Learning Analysis - Logistic Regression
+* Machine Learning Analysis - Logistic Regression
 
 Further insights from logistic regression reveal significant factors:
 
@@ -178,11 +178,11 @@ Tenure: A negative coefficient for tenure (-0.25) indicates that longer service 
 
 Contract Type - Month-to-Month: A positive coefficient reveals that month-to-month contracts have higher churn rates than long-term contracts.
 
-Insights
+* Insights
 
 This analysis suggests that customers with high monthly costs and shorter tenure are at greater risk of churn. The logistic regression model highlights that customers on month-to-month contracts are more likely to churn, potentially due to dissatisfaction or higher flexibility to switch services.
 
-Recommendations
+* Recommendations
 
 Reduce Early Churn: Address the high churn rate among new customers (tenure <10 months) through enhanced onboarding and customer support.
 
@@ -255,7 +255,7 @@ To improve the model, you might consider tuning parameters or trying alternative
 
 ![Screenshot 2024-11-11 224012](https://github.com/user-attachments/assets/04a4ba1e-eb01-4c1e-a251-ac8557f07bfe)
 
- Precision Comparison
+* Precision Comparison
  
 Precision measures the accuracy of positive predictions for each class. A high precision score indicates that a model is effective at minimizing false positives.
 
@@ -263,7 +263,7 @@ Class 0 (Non-Churn): Both models demonstrate high precision for non-churn predic
 
 Class 1 (Churn): Precision is lower for the churn class in both models, but Logistic Regression shows a notable advantage over KNN. This suggests that Logistic Regression is more reliable in correctly identifying actual churn cases among the positive predictions, reducing false churn alerts.
 
- Recall Comparison
+* Recall Comparison
  
 Recall reflects the model’s ability to capture actual positive instances within each class, especially important for identifying churn (class 1).
 
@@ -271,7 +271,7 @@ Class 0 (Non-Churn): Both models achieve high recall for non-churn cases, with s
 
 Class 1 (Churn): Logistic Regression again outperforms KNN for churn detection, indicating it is better at capturing actual churn cases. The higher recall in Logistic Regression implies it is less likely to miss customers who are actually at risk of churning.
 
-F1-Score Comparison
+* F1-Score Comparison
 
 F1-Score balances precision and recall, providing a comprehensive measure of a model’s performance for each class.
 
@@ -279,13 +279,13 @@ Class 0 (Non-Churn): Both models show high F1-scores for non-churn, though Logis
 
 Class 1 (Churn): Logistic Regression has a noticeably higher F1-score for the churn class compared to KNN, confirming that it provides a better balance of precision and recall in identifying customers likely to churn.
 
-Summary and Insights
+* Summary and Insights
 
 Logistic Regression outperforms KNN in detecting churn (class 1) with higher precision, recall, and F1-score. This indicates that Logistic Regression is more effective in correctly identifying customers who are likely to churn without overlooking too many actual churn cases.
 
 For Non-Churn predictions (class 0), both models perform well, though Logistic Regression still maintains a slight advantage.
 
-Recommendation
+* Recommendation
 
 Based on these metrics, Logistic Regression is the preferred model for predicting customer churn in this dataset, as it demonstrates better performance in accurately identifying churn cases, which is crucial for proactive customer retention strategies.
 
