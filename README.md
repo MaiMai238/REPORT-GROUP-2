@@ -5,49 +5,50 @@
                     REPORT-GROUP 2 : DATA CHURN
 
                     
-I. INTRODUCTION
+## I. INTRODUCTION
 
 In today’s competitive telecom industry, customer retention is crucial to maintaining profitability and sustainable growth. Customer churn, the phenomenon where customers discontinue their subscriptions, poses a significant challenge. It directly impacts revenue, increases the cost of customer acquisition, and can indicate underlying service or satisfaction issues. Identifying customers likely to churn and understanding the factors that drive churn can help telecom companies proactively address customer needs and enhance retention strategies.
 
-1.2. Project Objective
+### 1.2. Project Objective
 
 The objective of this project is to build a machine learning model to predict customer churn based on factors such as service, personal information, and payment history. This model will help the company identify customers at high risk of churning and develop effective retention strategies.
 
-II. DATA SOURCES
+## II. DATA SOURCES
 
-2.1. Dataset
+### 2.1. Dataset
 
 The dataset used in this project is “Telco Customer Churn” from Kaggle, which consists of 21 variables and 7043 samples. The variables include customers’ personal information, the type of service they use, and payment status.
-2.2 Main variables
 
-CustomerID: A unique ID that identifies each customer.
+### 2.2 Main variables
 
-Count: A value used in reporting/dashboarding to sum up the number of customers in a filtered set.
+- CustomerID: A unique ID that identifies each customer.
 
-Gender: The customer’s gender: Male, Female
+- Count: A value used in reporting/dashboarding to sum up the number of customers in a filtered set.
 
-Age: The customer’s current age, in years, at the time the fiscal quarter ended.
+- Gender: The customer’s gender: Male, Female
 
-Senior Citizen: Indicates if the customer is 65 or older: Yes, No
+- Age: The customer’s current age, in years, at the time the fiscal quarter ended.
 
-Married: Indicates if the customer is married: Yes, No
+- Senior Citizen: Indicates if the customer is 65 or older: Yes, No
 
-Dependents: Indicates if the customer lives with any dependents: Yes, No. Dependents could be children, parents, grandparents, etc.
+- Married: Indicates if the customer is married: Yes, No
 
-Number of Dependents: Indicates the number of dependents that live with the customer.
+- Dependents: Indicates if the customer lives with any dependents: Yes, No. Dependents could be children, parents, grandparents, etc.
 
-tenure: Thời gian sử dụng dịch vụ (tháng)
+- Number of Dependents: Indicates the number of dependents that live with the customer.
 
-MonthlyCharges: Chi phí hàng tháng
+- tenure: Thời gian sử dụng dịch vụ (tháng)
 
-TotalCharges: Tổng chi phí
+- MonthlyCharges: Chi phí hàng tháng
 
-Churn: Tình trạng rời bỏ (Yes/No)
+- TotalCharges: Tổng chi phí
+
+- Churn: Tình trạng rời bỏ (Yes/No)
 
 
-III. DATA VISUALIZATION AND ANALYSIS
+## III. DATA VISUALIZATION AND ANALYSIS
 
-Dataset Overview
+### Dataset Overview
 
 The dataset includes customer demographics, account details, service usage, and churn information, with features such as:
 
@@ -59,7 +60,7 @@ Services: Internet Service, Phone Service, Tech Support, etc.
 
 Target Variable: Churn indicating customer churn status.
 
-1. Customer Churn Distribution
+### 1. Customer Churn Distribution
 
 ![1](https://github.com/user-attachments/assets/cc7ec831-f92a-4e53-b5bf-ff4f6964a722)
 
@@ -105,7 +106,7 @@ Detailed Churn Analysis: Further analyze factors like monthly charges, tenure, a
 
 Customer Retention Programs: Develop targeted retention strategies for customers at high risk of churn, including discounts, loyalty programs, and enhanced technical support.
 
-2. Monthly Charges by Churn Status
+### 2. Monthly Charges by Churn Status
 
 ![2](https://github.com/user-attachments/assets/a7d15f0d-bc64-4072-aa6c-1538190e1c98)
 
@@ -151,7 +152,7 @@ Recommendations
 
 Monitor Monthly Costs: Consider adjusting monthly charges or offering flexible pricing plans, especially for customers with high bills, to reduce churn.
 
-3. Tenure and Monthly Charges Scatter Plot
+### 3. Tenure and Monthly Charges Scatter Plot
 
 ![3](https://github.com/user-attachments/assets/855f907e-6fe9-4c05-a303-cacad11a622b)
 
@@ -187,7 +188,7 @@ Reduce Early Churn: Address the high churn rate among new customers (tenure <10 
 
 Manage High Monthly Costs: Implement special discounts or offer tiered pricing for high-cost customers with shorter tenure to improve retention rates.
 
- 4. Logistic Regression 
+### 4. Logistic Regression 
 
  ![5](https://github.com/user-attachments/assets/84038620-0252-49e2-b13e-14a1da664cb1)
 
@@ -229,7 +230,7 @@ Observations
 
 The model performs better on class 0 than on class 1, as indicated by higher precision, recall, and F1-scores for class 0. This could suggest class imbalance or difficulty in distinguishing class 1.
 
-5. KNN Regression
+### 5. KNN Regression
 
 ![4](https://github.com/user-attachments/assets/ef2efac6-9ed1-4128-a82d-7074af00b3e3)
 
@@ -250,7 +251,7 @@ The model has a relatively high number of correct predictions for class 0 (TN = 
 To improve the model, you might consider tuning parameters or trying alternative models like SVM, Decision Tree, or Random Forest.
 
 
-6. Logistic Regression and KNN Classification Report Metrics
+### 6. Logistic Regression and KNN Classification Report Metrics
 
 ![Screenshot 2024-11-11 224012](https://github.com/user-attachments/assets/04a4ba1e-eb01-4c1e-a251-ac8557f07bfe)
 
@@ -288,13 +289,13 @@ Recommendation
 
 Based on these metrics, Logistic Regression is the preferred model for predicting customer churn in this dataset, as it demonstrates better performance in accurately identifying churn cases, which is crucial for proactive customer retention strategies.
 
-IV. Conclusion
+## IV. Conclusion
 
 This analysis highlights that high monthly charges, month-to-month contracts, and shorter tenures significantly influence customer churn. Logistic Regression proved more effective than K-Nearest Neighbors in predicting churn, especially in identifying at-risk customers accurately.
 
 To reduce churn, the company should consider targeted retention strategies for high-risk customers, encourage longer-term contracts, and improve onboarding and support for new customers to enhance satisfaction and loyalty. These actions can contribute to a more stable customer base and support sustainable growth.
 
-V. REFERENCES
+## V. REFERENCES
 
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
