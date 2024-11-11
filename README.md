@@ -1,9 +1,11 @@
 # REPORT GROUP 2
 INTRODUCTION TO DATA SCIENCE
                                                                                                     
-                                       -Lecturer:EMANUELPLAN
+                   -Lecturer:EMANUELPLAN
                                                                          
                     REPORT-GROUP 2 : DATA CHURN
+
+                    
 I. INTRODUCTION
 
 In today’s competitive telecom industry, customer retention is crucial to maintaining profitability and sustainable growth. Customer churn, the phenomenon where customers discontinue their subscriptions, poses a significant challenge. It directly impacts revenue, increases the cost of customer acquisition, and can indicate underlying service or satisfaction issues. Identifying customers likely to churn and understanding the factors that drive churn can help telecom companies proactively address customer needs and enhance retention strategies.
