@@ -307,14 +307,14 @@ Based on these metrics, Logistic Regression is the preferred model for predictin
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
                                                TEAM EVALUATION
-|Student Number	|Student Name   |	Task Done	                     |Remarks by Leader                                                      |Student Evaluation     |
-|---------------|---------------|------------------------------------|-----------------------------------------------------------------------|-----------------------|
-|22080333	    |Phan Hoàng Nga | 2 chart, references                |Done                                                                   |        100%           |
-|22080326	    |Mai Thị Mai    | Machine learning data analysis     |Completed on time and proactively                                      |        100%           |
-|22080301	    |Đỗ Việt Bắc    | 2 chart, slide                     |Good                                                                   |        100%           |
-|22080298	    |Trần Trung Anh | Cleaned data, contents             |Completed on time and proactively                                      |        100%           |
-|22080293	    |Đỗ Đức Anh     | Slide                              |NiceNice                                                               |        100%           |
-|22080309	    |Mai Việt Dũng  | Introduction,conclusion            |Contribute comments that the completion progress is not high enough    |         90%           |
+|Student Number	|Student Name   |	Task Done	                                                               |Remarks by Leader                                                      |Student Evaluation     |
+|---------------|---------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------|
+|22080333	    |Phan Hoàng Nga |Created and refined 2 data visualization charts, added reference sources for reports|Completed                                                        |        100%           |
+|22080326	    |Mai Thị Mai    | Conducted machine learning data analysis, including model selection and evaluation|Completed on time and proactively                                 |        100%           |
+|22080301	    |Đỗ Việt Bắc    | Do 2 data visualization charts, prepared presentation slides                 |Good                                                                   |        100%           |
+|22080298	    |Trần Trung Anh | Cleaned and preprocessed data, organized report content                      |Completed on time and proactively                                      |        100%           |
+|22080293	    |Đỗ Đức Anh     | Created presentation slides                                                  |Completed                                                              |        100%           |
+|22080309	    |Mai Việt Dũng  | Introduction,conclusion                                                      |Contribute comments that the completion progress is not high enough    |         90%           |
 
 
 
