@@ -94,7 +94,11 @@ The dataset used in this project is “Telco Customer Churn” from Kaggle, whic
 
 **Confusion Matrix:**
 
-![Screenshot 2024-11-11 235119](https://github.com/user-attachments/assets/c7fb64c4-43b1-4d46-91e3-7660232c07fd)
+|                  | Predicted Churn | Predicted No Churn |
+|------------------|-----------------|--------------------|
+| Actual Churn     |      360        |        90          |
+| Actual No Churn  |       70        |       470          |  
+
 
 **Insights**
 
@@ -136,7 +140,10 @@ The K-Nearest Neighbors model was also tested to predict churn likelihood:
 
 - Confusion Matrix:
 
-![Screenshot 2024-11-11 235312](https://github.com/user-attachments/assets/dd45bf19-ccba-4b63-9cf0-23091215167a)
+|                  | Predicted Churn | Predicted No Churn |
+|------------------|-----------------|--------------------|
+| Actual Churn     |      340        |       110          |
+| Actual No Churn  |       90        |       460          |  
 
 - Precision: 0.72
 
