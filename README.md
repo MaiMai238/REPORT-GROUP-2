@@ -1,5 +1,4 @@
-# REPORT GROUP 2
-INTRODUCTION TO DATA SCIENCE
+    INTRODUCTION TO DATA SCIENCE
                                                                                                     
                    -Lecturer:EMANUELPLAN
                                                                          
