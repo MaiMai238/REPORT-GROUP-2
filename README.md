@@ -289,6 +289,18 @@ Recommendation
 
 Based on these metrics, Logistic Regression is the preferred model for predicting customer churn in this dataset, as it demonstrates better performance in accurately identifying churn cases, which is crucial for proactive customer retention strategies.
 
+IV. Conclusion
+
+This analysis highlights that high monthly charges, month-to-month contracts, and shorter tenures significantly influence customer churn. Logistic Regression proved more effective than K-Nearest Neighbors in predicting churn, especially in identifying at-risk customers accurately.
+
+To reduce churn, the company should consider targeted retention strategies for high-risk customers, encourage longer-term contracts, and improve onboarding and support for new customers to enhance satisfaction and loyalty. These actions can contribute to a more stable customer base and support sustainable growth.
+
+V. REFERENCES
+
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+
+
 
 
 
