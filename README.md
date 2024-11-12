@@ -1,4 +1,4 @@
-    INTRODUCTION TO DATA SCIENCE
+                  INTRODUCTION TO DATA SCIENCE
                                                                                                     
                    -Lecturer:EMANUELPLAN
                                                                          
@@ -306,7 +306,8 @@ Based on these metrics, Logistic Regression is the preferred model for predictin
 
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
-                                               TEAM EVALUATION
+## Evaluation
+
 |Student Number	|Student Name   |	Task Done	                                                               |Remarks by Leader                                                      |Student Evaluation     |
 |---------------|---------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------|
 |22080333	    |Phan Hoàng Nga (Leader) |Created and refined 2 data visualization charts, added reference sources for reports|Completed                                               |        100%           |
