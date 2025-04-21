@@ -320,6 +320,14 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 
 
+|Student Number	|Student Name   |	Task Done                                                                    |Student Evaluation     |
+|---------------|---------------|------------------------------------------------------------------------------|-----------------------|
+|22080296	      |Nguyễn Quang Anh (Leader) |Power BI Dashboard Development, Slide Design                       |        100%           |
+|22080299	      |Triệu Anh                 | Power BI Dashboard Development, Slide Design                      |        100%           |
+|22080305	      |Lê Quý Quỳnh Chi          | Data Analysis, Report Writing, Slide Creation                     |        100%           |
+|22080326	      |Mai Thị Mai               | Data Analysis, Report Writing                                     |        100%           |
+|22080338	      |Nguyễn Thu Phương         |    Data Analysis, Slide Creation                                  |        100%           |
+|22080339	      |Tạ Thu Phương             | Data Analysis, Report Writing, Slide Creation                     |        100%           |
 
 
 
